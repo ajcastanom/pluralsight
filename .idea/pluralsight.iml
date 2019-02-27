@@ -17,6 +17,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/app_widgets/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/app_widgets/build" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/hello_flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/hello_flutter/build" />
     </content>
