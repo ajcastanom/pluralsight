@@ -24,6 +24,8 @@ class HelloYou extends StatefulWidget {
 
 class _HelloYouState extends State<HelloYou> {
   String name = '';
+  final _currencies = ['Dollars', 'Euro', 'Pounds'];
+  String _currency = 'Dollars';
 
   @override
   Widget build(BuildContext context) {
@@ -42,8 +44,20 @@ class _HelloYouState extends State<HelloYou> {
               ),
               onChanged: (String string) {
                 setState(() {
-                  name: string;
+                  name = string;
                 });
+              },
+            ),
+            DropdownButton<String>(
+              items: _currencies.map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value)
+                );
+              }).toList(),
+              value: _currency,
+              onChanged: (String value) {
+                _onDropdownChanged(value);
               },
             ),
             Text("Hello " + name + "!")
@@ -53,4 +67,9 @@ class _HelloYouState extends State<HelloYou> {
     );
   }
 
+  _onDropdownChanged(String value) {
+    setState(() {
+      this._currency = value;
+    });
+  }
 }
