@@ -4,10 +4,7 @@ import 'package:todo_app/util/dbhelper.dart';
 
 class TodoList extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return null;
-  }
+  State<StatefulWidget> createState() => TodoListState();
 
 }
 
