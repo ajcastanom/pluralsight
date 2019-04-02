@@ -9,12 +9,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    DbHelper dbHelper = new DbHelper();
-    dbHelper.initializeDb();
-
-    Todo todo = new Todo("Manzana", 2, "2019/05/02", "Conjunto de manzanas");
-    debugPrint("Cantidad de todos" + dbHelper.getCount().toString());
-    dbHelper.insertTodo(todo);
 
     return MaterialApp(
       title: 'Todos',
