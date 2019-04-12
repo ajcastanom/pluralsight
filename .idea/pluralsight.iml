@@ -23,6 +23,9 @@
       <excludeFolder url="file://$MODULE_DIR$/flutter/hello_flutter/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/hello_flutter/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/hello_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/square/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/square/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/square/build" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/todo_app/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/todo_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/todo_app/build" />
